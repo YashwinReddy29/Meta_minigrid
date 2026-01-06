@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs / runs
+runs/
+tb/
+tensorboard/
+*.log
+
+# Models / large outputs
+models/
+checkpoints/
+*.zip
+*.pt
+*.pth
+
+# Data
+data/
+*.csv
+*.parquet
+
+# Videos/images outputs (optional)
+videos/
+rollouts/
+*.gif
+*.mp4
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PDFs (optional, if you don't want papers in repo)
+papers/
+*.pdf
